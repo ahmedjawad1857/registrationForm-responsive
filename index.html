@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+input[type=email],input[type=password],select{
+    width: 350px;
+   height: 30px;
+
+   
+  }.register{
+   width: 385px;
+height: 30px;
+padding: 5px;
+background-color: rgb(240, 175, 10); 
+text-align: center; 
+color:white;
+font-size:large;
+border: none;
+}.icon{
+margin-left: 15px;
+
+}.icon1{
+margin-left: 10px;
+}
+
+
+</style>
+</head>
+<body  style="background-color: light;display:flex;justify-content: center;background-color: lightgray;" >
+  <form class="form" > 
+    <div class="col-1" style="width: 420px;height:610px;background-color: white;" >
+    <div style="border:4px solid rgb(240, 175, 10) ;"></div>
+    <div style="text-align:center;padding-top: 5px; font-family: sans-serif;">
+     <h1> Responsive  Registration Form</h1>
+   </div> <form  >
+    <div  style="text-align:center;display: flex;gap: -3px; ">
+        <button class="icon1"><i class="fa fa-envelope"></i></button>
+
+<input  required type="email" placeholder="Email">
+</div>
+<br>
+<div style="text-align: center;display: flex;gap:-5px">
+    <button class="icon"><i class="fa fa-lock"></i></button>
+    <input  required type="password" placeholder="Password">
+</div>
+<br>
+<div style="text-align: center;display:flex;gap:-5px;">
+    <button class="icon"><i class="fa fa-lock"></i></button>
+    <input  type="password" placeholder="Re-enter password"></div>
+   <br>
+    <div style="display: flex;gap: 12px;">
+        <div  style="display: flex;gap:-5px;">
+            <button class="icon"><i class="fa fa-user"></i></button>
+            <input  style="height: 30px;width:145px" type="text" placeholder="First name"></div>
+        <div style=" display:flex;gap:-5px">
+            <button class="icon"><i class="fa fa-user"></i></button>
+            <input  style="height: 30px;width:145px;" type="text" placeholder="Last name"></div>
+        </div>
+        <br>
+<div style="padding-left: 15px;" >
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Rather Not Say
+</div>
+<br>
+
+
+<div style=" padding-left:15px;">
+<select  style="padding-left: 20px;width: 380px;" name="Select a country" >
+<option  value="select a country"disabled selected hidden>select a country</option>    
+<option value="pakistan">Pakistan</option>
+<option value="india">India</option>
+<option value="america">America</option>
+<option value="canada">Canada</option>
+<option value="dubai">Dubai</option>
+</select>
+</div>
+<br>
+
+   
+<div  style="padding-left: 15px;">
+<input name="checkbox" value="1" type="checkbox" >
+<b>I agree with terms and conditions.</b>
+<br>
+<br>
+<input  name="checkbox" value="1" type="checkbox" >
+<b>I want to recieve the newsletter.</b>
+</div>
+<br>
+ <div style="padding-left:15px ;">
+ <!-- <p class="register">
+  
+  Register
+ </p> -->
+ <button type="submit" class="register">Register</button>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
